@@ -1,13 +1,12 @@
-import UserAccessButton from '../components/UserAccessButton';
-import React from 'react';
+import React from "react";
+import ThreeMonthTrial from "../components/ThreeMonthTrial";
 
 const Main = () => {
   return (
     <>
-    <div >
-      <UserAccessButton type="register" />
-      <UserAccessButton type="login" />
-    </div>
+      <div>
+        <ThreeMonthTrial />
+      </div>
     </>
   );
 };

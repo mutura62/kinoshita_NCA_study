@@ -1,0 +1,10 @@
+.ThreeMonthTrialContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .ThreeMonthTrialContainer img {
+    display: block; /* 画像をブロック要素として扱い、デフォルトのインライン要素から変更 */
+  }
