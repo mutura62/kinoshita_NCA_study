@@ -7,11 +7,6 @@ const ThreeMonthTrial = () => {
   useEffect(() => {
     const swiper = new Swiper(".swiper", {
         loop: true, //最後までいったら最初から デフォルトはfalse
-		speed: 400, //アニメーションの速度 デフォルトは300
-		autoplay: { // 自動再生
-			delay: 3000, //自動再生のスピード
-			disableOnInteraction: false, //矢印をクリックしても自動再生を止めないようにする
-		},
 		//ドットを指定
 		pagination: {
 			el: ".swiper-pagination",
