@@ -1,10 +1,40 @@
 .ThreeMonthTrialContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-  }
-  
-  .ThreeMonthTrialContainer img {
-    display: block; /* 画像をブロック要素として扱い、デフォルトのインライン要素から変更 */
-  }
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.WorldLevel{
+    text-align: center;
+}
+
+.swiper {
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+.swiper .swiper-slide {
+    width: 640px;
+}
+
+.swiper-wrapper{
+    display: inline;
+}
+.swiper-slide img {
+  width: 100%;
+}
+
+.gold {
+  background: linear-gradient(
+    269deg,
+    #c48502 4.25%,
+    #fedf8f 29.91%,
+    #af7900 46.97%,
+    #fedf8f 63.91%,
+    #af7900 81.23%,
+    #c48502 97.98%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

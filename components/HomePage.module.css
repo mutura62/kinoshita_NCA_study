@@ -1,9 +1,7 @@
-.line {
-    font-size: 0; /* インラインブロック間の隙間を除去 */
-  }
-  
-  .line > * {
-    display: inline-block;
-    font-size: initial; /* 実際の要素には元のフォントサイズを適用 */
-    vertical-align: top; /* 要素の上端を揃える */
-  }
+
+.container {
+    display: flex; /* 子要素横並び */
+}
+.main {
+    flex-grow: 1; /* 残りのスペースをすべて使う */
+}
