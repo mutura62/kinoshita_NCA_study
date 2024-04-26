@@ -23,7 +23,7 @@ const Sidebar = () => {
         <Image
           src="/images/NCAlogo.jpg"
           alt="NCAロゴ"
-          width={150}
+          width={50}
           height={70}
         />
       </div>

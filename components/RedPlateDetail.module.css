@@ -1,0 +1,23 @@
+.RedPlateDetail {
+  display: flex;
+}
+
+.RedPlateDetail img {
+  margin: 20px;
+  margin-right: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.RedPlateNumber {
+}
+
+.RedPlateDetail p {
+  margin-right: 0px;
+  width: 180px;
+  height: 90px;
+  margin-top: 20px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 11px;
+  background-color: rgb(255, 255, 255);
+}

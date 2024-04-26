@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Image from "next/image";
 import styles from "./ThreeMonthTrialContainer.module.css";
 import Swiper from "swiper"; // Swiperライブラリのインポート
+import 'swiper/css';
 
 const ThreeMonthTrial = () => {
   useEffect(() => {
@@ -17,13 +18,6 @@ const ThreeMonthTrial = () => {
 			nextEl: ".swiper-button-next",
 			prevEl: ".swiper-button-prev"
 		},
-		//レスポンシブ
-		// breakpoints: {
-		// 	768: { //768px以上なら次を適用
-		// 		slidesPerView: 1.5, //左右のスライドチラ見せ
-		// 		centeredSlides: true, //左右のスライドチラ見せ
-		// 	}
-		// }
     });
   }, []);
 

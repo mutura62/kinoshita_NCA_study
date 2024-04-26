@@ -1,0 +1,11 @@
+.index{
+    text-align:right;
+}
+
+.detail{
+    border:solid 1px #fe0202;
+  }
+
+.detail + .detail {
+    border-top:none;
+  }

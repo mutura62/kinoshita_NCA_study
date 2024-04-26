@@ -9,7 +9,6 @@ const Schedule = () => {
       <div className="Schedule">
         <h1>Schedule</h1>
         <ScheduleDetail/>
-        <ScheduleDetail/>
 
       </div>
     </>

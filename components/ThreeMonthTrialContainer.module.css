@@ -8,22 +8,6 @@
     text-align: center;
 }
 
-.swiper {
-    position: relative;
-    overflow: hidden;
-    display: block;
-}
-.swiper .swiper-slide {
-    width: 640px;
-}
-
-.swiper-wrapper{
-    display: inline;
-}
-.swiper-slide img {
-  width: 100%;
-}
-
 .gold {
   background: linear-gradient(
     269deg,

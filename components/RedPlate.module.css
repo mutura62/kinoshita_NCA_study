@@ -1,0 +1,67 @@
+.header{
+    display: flex; 
+    line-height: 100px;
+}
+
+.header p2{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.RedPlate{
+    background-color: #cf0000;
+    width: 700px;
+    height: 300px;
+    border-radius: 10px; 
+    margin-top: 30px;
+    margin-left: -40px;
+}
+.RedPlate_top{
+    display: flex; 
+
+}
+.RedPlate_top p{
+    color: #ffffff;
+    margin: auto;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.RedPlate_bottom{
+    display: flex;
+    text-align: center; 
+
+}
+
+.Number{
+    color: #cf0000;
+    font-size: 70px;
+    font-weight: bold;
+
+}
+
+.img{
+    border-radius: 10px;
+    margin-left: -30px;
+    margin-top: -30px;
+}
+
+.circle {
+    position: relative;
+    animation:3s linear infinite rotation;
+
+  }
+  
+  .circle h1 {
+    position: absolute;
+  }
+  
+  .char {
+    position: absolute;
+    transform-origin: 100px; 
+  }
+
+  @keyframes rotation{
+    0%{ transform:rotate(0deg);}
+    100%{ transform:rotate(360deg); }
+  }
